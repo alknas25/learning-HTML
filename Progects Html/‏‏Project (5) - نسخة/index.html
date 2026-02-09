@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head lang="en">
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta charset="iso-8859-1">
+    <link href="logo.png" type="image/x-icon" rel="icon">
+    <meta name="description" content="Contact Us Form">
+    <meta name="author" content="Mohamed Samir">
+    <meta name="keywords" content="css,html,java,python,email, phone, message, contact us, form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <center><h2>Contact the engineer</h2></center>
+    <form action="https://formspree.io/f/mqedkrav" method="post">
+      <fieldset style="width: 50%; margin: auto;">
+        <legend><mark> "Send Us A Message </mark></legend>
+        <p>
+          <label for="name">Name:</label> 
+          <input
+            required
+            type="text"
+            name="Username"
+            id="name"
+            placeholder="Enter Your name "
+          /> <label for="gender">Gender:</label>
+            <select name="Gender" id="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+              <br /><br /> 
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input
+            required
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="Enter Your email "
+          />  <label for="contry">Country:</label>
+            <select name="Country" id="contry">
+              <option value="Egypt">Egypt</option>  
+              <option value="Saudia">Saudia</option>
+              <option value="UAE">UAE</option>
+              <option value="USA">USA</option>
+              <option value="Other">Other</option>
+            </select>
+              <br /><br />
+        </p>
+
+        <p>
+          <label for="phone">Phone:</label>
+          <input
+            required
+            type="tel"
+            name="Phone"
+            id="phone"
+            placeholder="Enter Your phone number "
+          /><br /><br />
+        </p>
+
+        <p>
+          <label for="massage">Your Message:</label><br />
+          <textarea
+            required
+            name="User message"
+            placeholder="Enter Your message"
+            id="massage"
+            cols="45"
+            rows="8"
+            maxlength="304"
+            minlength="4"
+          ></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+

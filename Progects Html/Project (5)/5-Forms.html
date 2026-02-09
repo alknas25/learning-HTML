@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+    <head lang="en">
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta charset="iso-8859-1">
+    <link href="logo.png" type="image/x-icon" rel="icon">
+    <meta name="description" content="Contact Us Form">
+    <meta name="author" content="Mohamed Samir">
+    <meta name="keywords" content="css,html,java,python,email, phone, message, contact us, form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+</html>
+ 
+<html>
+  <body>
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/mjgevdjw" method="post">
+      <fieldset>
+        <legend><mark> "Send Us A Message </mark></legend>
+        <p>
+          <label for="name">Name:</label>
+          <input
+            required
+            type="text"
+            name="Username"
+            id="name"
+            placeholder="Enter Your name "
+          /><br /><br />
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input
+            required
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="Enter Your email "
+          /><br /><br />
+        </p>
+
+        <p>
+          <label for="phone">Phone:</label>
+          <input
+            required
+            type="tel"
+            name="Phone"
+            id="phone"
+            placeholder="Enter Your phone number "
+          /><br /><br />
+        </p>
+
+        <p>
+          <label for="massage">Your Message:</label><br />
+          <textarea
+            required
+            name="User message"
+            placeholder="Enter Your message"
+            id="massage"
+            cols="50"
+            rows="8"
+            maxlength="304"
+            minlength="4"
+          ></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+
+<html>
+  
+  <body>
+    <h1>Information</h1>
+    <form>
+      <label for="name">Your name:</label> <br>
+      <input required id="name" type="text" placeholder="Enter Your name "> <br> <br>
+      <label for="email">Your email:</label> <br>
+      <input required id="email" type="email" placeholder="Enter Your email "><br> <br>
+      <label for="password">Your password:</label> <br>
+      <input required id="password" type="password" maxlength="8" minlength="8" placeholder="Enter Your password "> <br> <br>
+      <button type="submit">Submit</button>
+      <br> <br>
+      <input type="date"><br>
+      <input type="time"><br>
+      <input type="color"><br>
+      <input type="month"><br>
+      <input type="datetime-local"><br>
+      <h3>Tasks</h3>
+      <div>
+        <input type="checkbox" id="chek" name="todo" value="gym">
+        <label for="chek">Going to Gym </label>
+      </div>
+      <div>
+        <input type="checkbox" id="chek2" name="todo2" value="study">
+        <label for="chek2">Going to study </label>
+      </div>
+      <div>
+        <input type="checkbox" id="chek3" name="todo3" value="eat">
+        <label for="chek3">Going to eat </label>
+      </div>
+      <h3>Gender</h3>
+      <div>
+        <input type="radio" id="gen1" name="gender" value="male">
+        <label for="gen1">male </label>
+      </div>
+      <div>
+        <input type="radio" id="gen2" name="gender" value="female">
+        <label for="gen2">female </label>
+      </div>
+            <div>
+        <input type="radio" id="gen3" name="gender" value="other">
+        <label for="gen3">other </label>
+      </div>
+
+        <br><input type="submit" value="Submit">
+        <br><input type="reset" value="Reset">
+  
+        <br><br>
+      <div>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" >
+          <optgroup label="Types of cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option selected value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            <option value="fiat">Fiat</option>
+          </optgroup>
+          <option value="toyota">Toyota</option>
+        </select>
+      </div>
+
+      <br><br>
+      <h1>Fruits</h1>
+      <input type="search" name="Fruits" list="Fruits">
+      <datalist id="Fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="avocados">Avocados</option>
+      </datalist><BR></BR>
+      <button type="submit">Search</button>
+      <br><br>
+    
+      <h1>Article</h1>
+
+      <input type="text" name="title" required placeholder="Article">
+      <br><br>
+      <textarea 
+      required
+      autofocus
+      name="Content_Of_Article"
+      placeholder="Content of Article"
+      cols="20"
+      rows="10"
+      maxlength="34"
+      minlength="4"
+      ></textarea>
+      <br><br>
+      <button type="submit">Submit</button>
+      
+    </form>
+
+  </body>
+</html>
+
