@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <meta charset="utf-8" />
+    <link href="./images/icon2.png" type="image/x-icon" rel="icon" />
+    <meta name="description" content="Contact Us Form" />
+    <meta name="author" content="Mohamed Samir" />
+    <meta
+      name="keywords"
+      content="css,html,java,python,email, phone, message, contact us, form"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <center><h2>Contact the engineer</h2></center>
+    <form action="home.html">
+      <fieldset style="width: 50%; margin: auto">
+        <legend align="left">
+          <mark> <b>"Login - Zad Al-Muslim</b> </mark>
+        </legend>
+        <legend align="center"></legend>
+        <p>
+          <label for="name">Name:</label>
+          <input
+            required
+            autofocus
+            type="text"
+            name="Username"
+            id="name"
+            placeholder="Enter Your name "
+          />
+          <br /><br />
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input
+            required
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="Enter Your email "
+          />
+          <br /><br />
+        </p>
+
+        <p>
+          <label for="phone">Phone:</label>
+          <input
+            required
+            type="tel"
+            name="Phone"
+            id="phone"
+            placeholder="Enter Your phone number "
+          /><br /><br />
+        </p>
+
+        <div>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="other">Other</label><br /><br />
+        </div>
+        <div>
+          <label for="country">Country:</label>
+          <select name="Country" id="country">
+            <option value="Egypt">Egypt</option>
+            <option value="Saudia">Saudia</option>
+            <option value="UAE">UAE</option>
+            <option value="USA">USA</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <p>
+          <label for="massage">Your Message:</label><br />
+          <textarea
+            name="User message"
+            placeholder="Enter Your message (اختياري)"
+            id="massage"
+            cols="45"
+            rows="8"
+            maxlength="304"
+            minlength="4"
+          ></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+    <footer dir="rtl" align="center">
+      <!-- <center><img src="/Progects Html/Project (6)/images/istockphoto-2018101881-1024x1024.jpg" alt="Home Image" style="width: 50%; border: 2px solid #eeb3b3; border-radius: 10px; grid-auto-flow: column;"></center> -->
+
+      <p>
+        Zad Al-Muslim – 2026 ©<br />
+        موقع تعليمي ديني – جميع الحقوق محفوظة<br />
+        تصميم وبرمجة:
+        <a href="https://wa.me/201007569287" target="_blank">محمد سمير</a>
+        <img src="./images/whatsapp.png" alt="Home Image" style="width: 5%" />
+      </p>
+    </footer>
+  </body>
+</html>
